@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tabuleiro{
+            display: grid;
+            grid-template-columns: repeat(4, 80px);
+            grid-gap: 10px;
+            width: 350px;
+            margin: 20pxm auto;
+        }
+        .carta{
+            width: 80px;
+            height: 100px;
+            background: #007BFF;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 8px;
+        }
+        .vira{
+            background: #FFC107;
+            color: black;
+            cursor:default
+        }
+    </style>
+</head>
+<body>
+    <div id="tabuleiro"></div>
+   <script src="exe.6.js"></script> 
+</body>
+</html>
